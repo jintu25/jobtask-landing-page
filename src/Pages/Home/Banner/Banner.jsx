@@ -12,7 +12,7 @@ const Banner = () => {
                     <p className='text-[#e73c3e] text-[18px] font-normal'>We are here for</p>
                     <h1 className='text-4xl md:text-6xl font-semibold leading-[52px] md:leading-[70px] text-sky-400 md:text-[#111111] my-5'>We believe in those made to do more</h1>
                     <p className='text-[#606060] text-[18px] font-normal mb-6 leading-[32px]'>Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your own business</p>
-                    <button className='btn btn-primary'>view more</button>
+                    <button className='btn-left-to-right'>view more</button>
                     <ul className='social-icon flex mt-20 items-center'>
                         <li><span>Folow Us</span></li>
                         <Link><span className='banner-social-icon'><FaFacebookF></FaFacebookF></span></Link>

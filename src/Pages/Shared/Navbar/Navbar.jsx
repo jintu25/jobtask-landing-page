@@ -7,38 +7,38 @@ const Navbar = () => {
       // Toggle the menu visibility when the button is clicked
       setIsMenuOpen(!isMenuOpen);
     };
-    // all menu items store menu variable
+    // all menu items store in inside the menu variable
       const menu = (
           <>
           <li>
-              <a className="text-black font-medium text-[16px]" href="/">
+              <a className="text-[#606060] font-semibold text-[16px]" href="/">
                 Home
               </a>
             </li>
             <li>
-              <a className="text-black font-medium text-[16px]" href="#about">
-                About Me
-              </a>
+              <Link to='/aboutUs' className="text-[#606060] font-semibold text-[16px]">
+                About Us
+              </Link>
             </li>
             <li>
-              <a className="text-black font-medium text-[16px]" href="#skills">
-                Skill
-              </a>
+              <Link to='/services' className="text-[#606060] font-semibold text-[16px]">
+                Services
+              </Link>
             </li>
             <li>
-              <a className="text-black font-medium text-[16px]" href="#project">
-                Project
-              </a>
+              <Link to='/testimonial' className="text-[#606060] font-semibold text-[16px]">
+                Testimonials
+              </Link>
             </li>
             <li>
-              <Link className="text-black font-medium text-[16px]" to="/blog/fullstack">
+              <Link to='/blog' className="text-[#606060] font-semibold text-[16px]">
                 Blogs
               </Link>
             </li>
             <li>
-              <a className="text-black font-medium text-[16px]" href="#contact">
+              <Link to='/contactUs' className="text-[#606060] font-semibold text-[16px]">
                 Contact
-              </a>
+              </Link>
             </li>
           </>
       )

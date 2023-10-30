@@ -14,3 +14,13 @@ Currently, two official plugins are available:
 4. install react icon for use some different icons.
 5. install swiperJs for multi carousel slider section design in slider.jsx file.
 
+<!-- about landPage -->
+1. landing page design use react js
+2. full responsive design 
+2. use tailwind css for style and use tailwind plugin daisyui
+3. use git and github
+4. create navigation bar with links to different page.
+5. create footer section containing essential information or links
+6. Design of eight or more sections
+7. i use animation in all button and icons
+8. slider carousel use slider and testimonial sections and i use swiperjs for amazing slider section design

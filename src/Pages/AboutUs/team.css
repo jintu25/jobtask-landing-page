@@ -1,0 +1,63 @@
+/*------- team design css code --------- */
+/* ------- basicaly css use for design when mouse hover in image icon show animation ----- */
+.team-image{
+    position: relative;
+}
+.team-icon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.team-icon ul{
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+.team-icon ul li{
+    display: inline-block;
+    transform: translateY(35px);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease-in-out;
+}
+.team-content:hover .team-icon ul li{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.team-content:hover .team-icon ul li:nth-child(1){
+    transition-delay: .3s;
+}
+.team-content:hover .team-icon ul li:nth-child(2){
+    transition-delay: .4s;
+}
+.team-content:hover .team-icon ul li:nth-child(3){
+    transition-delay: .5s;
+}
+.team-image:hover .team-icon ul li:nth-child(4){
+    transition-delay: .6s;
+}
+
+.team-icon ul li a {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    font-size: 22px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition:1s;
+    color: #444;
+}
+.team-icon ul li a:hover{
+    color: #fff;
+    background: #e73a3e;
+}
+

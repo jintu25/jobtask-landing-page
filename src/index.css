@@ -10,3 +10,36 @@ body{
 li, p, span, a, link {
   font-family: "Rubik", sans-serif;
 }
+/* ------ btn animation add left to right side ------ */
+.btn-left-to-right{
+  background: #e73a3e;
+  border-color: #e73a3e;
+  padding: 12px 30px;
+  font-size: 17px;
+  position: relative;
+  z-index: 1;
+  size: 18px;
+  color: #fff;
+  font-size: 600;
+  border-radius: 8px;
+}
+.btn-left-to-right::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #111;
+  border-color: #111;
+  color: antiquewhite;
+  z-index: -1;
+  transition: .4s;
+  border-radius: 8px;
+}
+.btn-left-to-right:hover{
+  border-color: #111;
+}
+.btn-left-to-right:hover::after{
+  width:100%;
+}

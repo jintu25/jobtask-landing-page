@@ -24,10 +24,10 @@ const About = () => {
                     <p className='text-[18px] mb-4 text-[#606060]'>In business, we focus on 3 things.</p>
                     <ul>
                         <li className='text-[18px] mb-2 items-center flex text-[#606060]'><span className='mr-2 text-3xl text-[#e73c3e]'><BsCheckAll></BsCheckAll></span>Useful info</li>
-                        <li className='text-[18px] mb-2 items-center flex text-[#606060]'><span className='mr-2 text-3xl text-[#e73c3e]'><BsCheckAll></BsCheckAll></span>Useful info</li>
-                        <li className='text-[18px] mb-2 items-center flex text-[#606060]'><span className='mr-2 text-3xl text-[#e73c3e]'><BsCheckAll></BsCheckAll></span>Useful info</li>
+                        <li className='text-[18px] mb-2 items-center flex text-[#606060]'><span className='mr-2 text-3xl text-[#e73c3e]'><BsCheckAll></BsCheckAll></span>Reliability</li>
+                        <li className='text-[18px] mb-2 items-center flex text-[#606060]'><span className='mr-2 text-3xl text-[#e73c3e]'><BsCheckAll></BsCheckAll></span>Innovation</li>
                     </ul>
-                    <button className='btn btn-primary mt-6'>view more</button>
+                    <button className='btn-left-to-right mt-6'>view more</button>
                 </div>
             </div>
         </div>

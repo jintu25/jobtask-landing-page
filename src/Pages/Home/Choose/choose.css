@@ -1,0 +1,54 @@
+
+/* ------ feature-items section design ------- */
+.feature-items {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    transition: .6s;
+}
+.feature-items:hover{
+    transform: translateY(-12px);
+}
+
+.feature-items::before {
+    content: "";
+    top: -140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    background: rgb(253, 235, 235);
+    border-radius: 50%;
+    z-index: 0;
+}
+.feature-items:hover .feuture-icon {
+    color: #fff;
+    background: #e73a3e;
+}
+.feature-icon {
+    background: #fff;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin: auto;
+    color:#e73a3e;
+    position: relative;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.feature-icon:hover{
+    background: #e73a3e;
+    color: #fff;
+}
+.mrgin-btm{
+    margin-top: -30px;
+}

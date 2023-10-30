@@ -1,0 +1,16 @@
+/* -------- add image ------ */
+.about-text-sec {
+    background: url('../../../assets//img/shape.png');
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 196px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}

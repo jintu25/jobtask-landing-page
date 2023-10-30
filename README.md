@@ -11,3 +11,6 @@ Currently, two official plugins are available:
 1. first install react latest with vite 
 2. than install react router dom and tailwind css with dasyui for style this landing page.
 3. open terminal and type npm run dev and run this landing page and start main work.
+4. install react icon for use some different icons.
+5. install swiperJs for multi carousel slider section design in slider.jsx file.
+

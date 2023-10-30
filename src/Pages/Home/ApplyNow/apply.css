@@ -1,0 +1,117 @@
+
+/* ----- apply now left side style css code ------ */
+.apply-now-left-test{
+    margin-top: 60px;
+}
+.step-timeline ul {
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+}
+.step-timeline ul::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 1px;
+    background: #e73a3e;
+    height: calc(100% - 100px);
+}
+.step-timeline ul li {
+    margin-bottom: 25px;
+    position: relative;
+}
+.step-timeline ul li::before {
+	content: attr(data-counter);
+	position: absolute;
+	left: -65px;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	background: #f9fafb;
+	border: 1px solid #e73a3e;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+}
+.step-timeline ul li strong {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+.step-timeline ul li p {
+    color: #606060;
+}
+
+/* ------- right side style css code ------ */
+/* ------- calculator rate css style code ----- */
+/* .calculate-rate{
+    background-color: #fdebeb;
+    padding: 50px;
+}
+.calculate-rate .finix-text h6{
+    color: #606060;
+}
+
+
+.calculate-from .form-group {
+    margin-bottom: 20px;
+}
+.calculate-from .form-group input {
+    border: none;
+    border-radius: 0;
+    padding: 14px 15px;
+}
+.calculate-from .form-group select{
+    border: none;
+    border-radius: 0;
+    height: 53px;
+}
+
+.calculate-from .form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*   call-item-section  */
+/* .call-item-bg {
+    background: #e73a3e;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 10px;
+    padding-right: 22px;
+}
+.call-title{
+    border-right: 1px solid #fff;
+}
+.call-title h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.call-number {
+    margin-top: 11px;
+    padding-left: 20px;
+}
+.phone-icon {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 36px;
+    color: #e73a3e;
+}
+.call-number a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 6px;
+} */
+

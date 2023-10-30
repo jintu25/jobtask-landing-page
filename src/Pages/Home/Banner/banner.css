@@ -1,0 +1,38 @@
+/* ----- banner background and design purpose ----- */
+.banner{
+    background-image: url(../../../assets//img/main-banner2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+/* ------ social icon style -------*/
+.banner-social-icon {
+    color: #111;
+    padding: 0px 11px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+.banner-social-icon:hover{
+    color: #e73c3e;
+    transition: .5s ease-in-out;
+}
+.social-icon li span {
+    margin-right: 35px;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+}
+.social-icon li span::after {
+    content: "";
+    height: 1px;
+    width: 35px;
+    background: #111;
+    position: absolute;
+    top: 50%;
+    right: -40px;
+}

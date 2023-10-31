@@ -11,32 +11,32 @@ const Navbar = () => {
       const menu = (
           <>
           <li>
-              <a className="text-[#606060] font-semibold text-[16px]" href="/">
+              <a className="text-slate-300 lg:text-[#606060] font-semibold text-[16px]" href="/">
                 Home
               </a>
             </li>
             <li>
-              <Link to='/aboutUs' className="text-[#606060] font-semibold text-[16px]">
+              <Link to='/aboutUs' className="text-slate-300 lg:text-[#606060] font-semibold text-[16px]">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to='/services' className="text-[#606060] font-semibold text-[16px]">
+              <Link to='/services' className="text-slate-300 lg:text-[#606060] font-semibold text-[16px]">
                 Services
               </Link>
             </li>
             <li>
-              <Link to='/testimonial' className="text-[#606060] font-semibold text-[16px]">
+              <Link to='/testimonial' className="text-slate-300 lg:text-[#606060] font-semibold text-[16px]">
                 Testimonials
               </Link>
             </li>
             <li>
-              <Link to='/blog' className="text-[#606060] font-semibold text-[16px]">
+              <Link to='/blog' className="text-slate-300 lg:text-[#606060] font-semibold text-[16px]">
                 Blogs
               </Link>
             </li>
             <li>
-              <Link to='/contactUs' className="text-[#606060] font-semibold text-[16px]">
+              <Link to='/contactUs' className="text-slate-300 lg:text-[#606060] font-semibold text-[16px]">
                 Contact
               </Link>
             </li>

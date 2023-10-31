@@ -13,7 +13,7 @@ const Choose = () => {
             title={"Transparent process"}
             subtitle={"Why people choose us"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "When you choose Finix, you're not just choosing a financial institution; you're choosing a partner dedicated to your financial success. "
             }></CommonTitle>
 
           <img className="w-full text-center" src={image} alt="" />
@@ -24,10 +24,9 @@ const Choose = () => {
               <div className="feature-icon">
                 <span><FaSignLanguage></FaSignLanguage></span>
               </div>
-              <h3 className="pt-5 pb-3 text-slate-950 font-semibold text-2xl">Guarantee</h3>
+              <h3 className="pt-5 pb-3 text-slate-950 font-semibold text-2xl">Transparency</h3>
               <p className="text-lg text-[#606060] font-medium text-[17px] pb-6 pt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+              We believe in clear and honest communication. Our team will guide you through the entire loan process
               </p>
             </div>
           </div>
@@ -39,8 +38,7 @@ const Choose = () => {
               </div>
               <h3 className="pt-5 pb-3 text-slate-950 font-semibold text-2xl">Speed</h3>
               <p className="text-lg text-[#606060] font-medium text-[17px] pb-6 pt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+              We know that time is of the essence when it comes to your financial needs. Our efficient approval process
               </p>
             </div>
           </div>
@@ -50,10 +48,9 @@ const Choose = () => {
               <div className="feature-icon">
                 <span><FaThumbsUp></FaThumbsUp></span>
               </div>
-              <h3 className="pt-5 pb-3 text-slate-950 font-semibold text-2xl">Reliavilty</h3>
+              <h3 className="pt-5 pb-3 text-slate-950 font-semibold text-2xl">Services</h3>
               <p className="text-lg text-[#606060] font-medium text-[17px] pb-6 pt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+              Our friendly and professional team is always ready to assist you. Whether you have questions
               </p>
             </div>
           </div>
@@ -65,8 +62,7 @@ const Choose = () => {
               </div>
               <h3 className="pt-5 pb-3 text-slate-950 font-semibold text-2xl">Experiance</h3>
               <p className="text-lg text-[#606060] font-medium text-[17px] pb-6 pt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+              With over [25] years of experience in the financial industry, our team is well-equipped 
               </p>
             </div>
           </div>

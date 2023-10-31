@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div>
                 {/* use commonTitle component for some similar design use */}
-                <CommonTitle title={'About company'} subtitle={'We have been working very efficiently with loan and funding for 25 years.'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.'}></CommonTitle>
+                <CommonTitle title={'About company'} subtitle={'We have been working very efficiently with loan and funding for 25 years.'} description={'At Finix, we are dedicated to making your financial dreams a reality. We understand that life is filled with unexpected challenges and opportunities, and having access to reliable financial support can make all the difference.'}></CommonTitle>
                 <div>
                     <p className='text-[18px] mb-4 text-[#606060]'>In business, we focus on 3 things.</p>
                     <ul>

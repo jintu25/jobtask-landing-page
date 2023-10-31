@@ -10,7 +10,7 @@ const ApplyNow = () => {
           title={"funding circles"}
           subtitle={"You deserve better business loan"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "At Deserve Better Loan Solutions, we believe you deserve more than just a loan. You deserve financial freedom, peace of mind, and a partner who understands your unique needs."
           }></CommonTitle>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-4 lg:mx-0 mt-12">
@@ -18,39 +18,35 @@ const ApplyNow = () => {
           <h2 className="mb-6 text-2xl md:text-3xl font-semibold text-[#11111]">
             We usually follow 4 steps to get a better business loans.
           </h2>
-          <div className="step-timeline mb-5">
+          <div className="step-timeline mb-8 mt-6">
             <ul>
               <li data-counter="1">
                 <strong>Apply in 10 minutes</strong>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We understand that life moves fast, and you can't afford to spend hours on loan applications. With us, you can complete your application in just 10 minutes.
                 </p>
               </li>
               <li data-counter="2">
                 <strong>Hear from us in 1 hour</strong>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Once your application is submitted, we prioritize your request. You won't be left wondering about the status of your loan.
                 </p>
               </li>
               <li data-counter="3">
                 <strong>A decision in 24 hours</strong>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We know that waiting for a loan approval can be nerve-wracking. That's why we commit to providing a decision within 24 hours of your application. 
                 </p>
               </li>
               <li data-counter="4">
                 <strong>Your loan is funded</strong>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Upon approval, your loan is on its way to being funded. We work diligently to ensure the funds you need are in your hands as soon as possible.
                 </p>
               </li>
             </ul>
           </div>
-          <a href="#" className="btn-middle-animation">
+          <a href="#" className="btn-left-to-right ">
             Apply Now
           </a>
         </div>

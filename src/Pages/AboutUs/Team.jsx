@@ -13,10 +13,10 @@ const Team = () => {
         <div className="text-center w-full md:w-3/5 m-auto mb-6">
             <CommonTitle title={'Expert People'} subtitle={'Global leadership team'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}></CommonTitle>
         </div>
-      <section className="team-mamber grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-4 lg:mx-0">
+      <section className="team-mamber grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-4 lg:mx-0">
         <div className="team-content">
           <div className="team-image">
-            <img src={image1} alt="" />
+            <img className="w-full text-center" src={image1} alt="" />
             <div className="team-icon">
               <ul>
                 <li>
@@ -50,7 +50,7 @@ const Team = () => {
 
         <div className="team-content">
           <div className="team-image">
-            <img src={image2} alt="" />
+            <img className="w-full text-center" src={image2} alt="" />
             <div className="team-icon">
               <ul>
                 <li>
@@ -84,7 +84,7 @@ const Team = () => {
 
         <div className="team-content">
           <div className="team-image">
-            <img src={image3} alt="" />
+            <img className="w-full text-center" src={image3} alt="" />
             <div className="team-icon">
               <ul>
                 <li>
@@ -118,7 +118,7 @@ const Team = () => {
 
         <div className="team-content">
           <div className="team-image">
-            <img src={image4} alt="" />
+            <img className="w-full text-center" src={image4} alt="" />
             <div className="team-icon">
               <ul>
                 <li>
